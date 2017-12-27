@@ -26,6 +26,7 @@ $(document).ready(function(){
   $(".quote").css("color",colors[randomIndex]);
   $(".author").css("color",colors[randomIndex]);
   $("#new-quote").css("color", colors[randomIndex]);
+  $("#twitter-logo").css("color",colors[randomIndex]);
   console.log(colors[randomIndex]);
     //var elem = document.getElementById("box");
 //elem.style.height = "0px";
