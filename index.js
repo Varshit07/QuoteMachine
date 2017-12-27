@@ -20,6 +20,13 @@ $(document).ready(function(){
     $(".quote").html(randomQuote);
     $(".author").html("~ " + randomAuthor);
   });
+  var colors = ["#73A857",'#16a085', '#27ae60', '#f39c12', '#e74c3c', '#9b59b6', '#2c3e50', '#FB6964', '#342224', "#472E32", "#77B1A9"];
+  var randomIndex = Math.floor(Math.random() * 11);
+  $("body").css("background-color",colors[randomIndex]);
+  $(".quote").css("color",colors[randomIndex]);
+  $(".author").css("color",colors[randomIndex]);
+  $("#new-quote").css("color", colors[randomIndex]);
+  console.log(colors[randomIndex]);
     //var elem = document.getElementById("box");
 //elem.style.height = "0px";
     //var QuoteLength = 400;
