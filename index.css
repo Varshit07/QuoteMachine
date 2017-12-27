@@ -1,0 +1,40 @@
+body{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+h2,h3 {
+  font-family: Ubuntu;
+}
+h3 {
+  margin-top: -10px;
+}
+#box {
+  margin: 0 auto;
+}
+.quote-box {
+  background-color: white;
+  border-radius: 5px;
+  color: #000000;
+  height: 150px;
+}
+#new-quote {
+  font-family: Ubuntu;
+}
+.quote {
+  font-family: Spectral SC;
+  font-size: 160%;
+  font-weight: bold;
+}
+.author {
+  font-family: Montserrat;
+  font-size: 150%;
+  font-weight: bold;
+}
+.quote-box{
+  overflow: hidden;
+  text-align: center;
+  overflow-y: scroll;
+}
+.quote {
+  display: inline-block;
+}
