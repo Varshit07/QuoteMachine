@@ -5,7 +5,7 @@ $(document).ready(function(){
     getQuote();
   });
   $("#share-twitter").on("click", function(){
-  window.open("https://twitter.com/intent/tweet?text=" + "From Varshit's Random Quote Machine: \"" + randomQuote + "\" ~ " + randomAuthor + "&hashtags=inspiration");
+  window.open("https://twitter.com/intent/tweet?text=" + "From Varshit's Random Quote Machine: \"" + encodeURIComponent(randomQuote) + "\" ~ " + randomAuthor + "&hashtags=inspiration");
   });
   function getQuote() {
    /* randomNumber = Math.floor(Math.random() * quotes.length);
