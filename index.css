@@ -37,6 +37,9 @@ h3 {
 .quote {
   display: inline-block;
 }
-.btn:focus{
+#new-quote:focus{
+    outline: none;
+}
+#share-twitter:focus{
     outline: none;
 }
