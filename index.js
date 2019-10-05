@@ -16,6 +16,8 @@ $(document).ready(function(){
     randomQuote = data.quoteText;
     randomAuthor = data.quoteAuthor;
     $(".quote").html(randomQuote);
+    if(!(randomAuthor.match(/[A-Z]/i)))
+        randomAuthor = "UNKNOWN";
     $(".author").html("~ " + randomAuthor);
   });
   var colors = ["#73A857",'#16a085', '#27ae60', '#f39c12', '#e74c3c', '#9b59b6', '#2c3e50', '#FB6964', '#342224', "#472E32", "#77B1A9"];
